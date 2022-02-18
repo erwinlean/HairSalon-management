@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+html,body{
+    color: #D5D5D5;
+    background-color: #232124;
+    font-family: 'Ubuntu', sans-serif; 
+    width: 100vw;
+    height: auto;
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+    font-size: 16px; 
+    text-decoration: none;
+}
+.row{
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+} 
+.title{
+    width: 100%;
+    height: auto;
+    background: white;
+    padding: 2px;
+    border-bottom: 3px solid #823E36;  
+    text-align: center; 
+    align-items: center; 
+}
+.navContainer{
+    text-align: center; 
+    align-items: center; 
+}
+.linkA{
+    text-decoration: none;
+    color: #232124;
+    font-weight: bold;
+} 
+.linkA:hover{
+    text-decoration: none;
+    color: #232124;
+    text-decoration: underline; 
+}
+.imgTitulo{
+    height: 66px;
+    width: auto;
+    padding-right: 10px;
+}
+.tablaPrec{ 
+    width: 100%;
+    height: auto;
+}
+.principal{
+    border: 3px solid #823E36;
+    padding: 20px;
+    font-weight: bolder; 
+}
+.tdclass{
+    padding: 12px;
+    border: 3px solid #823E36;
+}
+.tdclass1{
+    padding: 12px;
+    border: 3px solid #823E36;
+}
+.btnNormal{
+    padding: 5px;
+    margin: 5px; 
+    border-radius: 5%;
+    color: #232124;
+}
+.tdclassInput{ 
+    border: 3px solid #823E36;
+    padding: 12px; 
+}
+.inputPrecio{
+    width: 70%;
+    height: auto;
+    border-radius: 5%;
+}
+input::placeholder {
+    color: #232124;
+    font-size: 15px;
+    font-style: italic;
+}
+.btn4Save{
+    width: 100%;
+    height: auto;
+    margin-top: 20px; 
+}
+.btnCuentasPerse1{
+    margin: 5px;
+    padding: 8px; 
+    border-radius: 5%; 
+}
+.btnCuentasPerse{ 
+    margin: 5px;
+    padding: 8px; 
+    border-radius: 5%;
+    background: #823E36;
+} 
+.btnNormal:hover{ 
+    border: 1.5px solid #823E36; 
+    filter: brightness(115%);
+    font-weight: bold;
+}
+.btnCuentasPerse:hover{ 
+    border: 1.5px solid #823E36; 
+    filter: brightness(115%); 
+    font-weight: bold;
+}
+.parrafoIngresos{
+    border: 3px solid #823E36;
+    padding: 12px; 
+    font-weight: bolder;
+}
+.inicio{
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    align-self: center; 
+    position: absolute;
+    left: 40%;
+    top:880px;
+}
+.logoInicio{
+    width: 50px;
+    opacity: 0.8;
+    height: auto;
+}
+.logoInicio:hover{
+    opacity: 1;
+    filter: brightness(130%);
+}
+@media only screen and (max-width:991px){
+    .inicio{
+        width: 100%;
+        height: auto;
+        margin-top: 15px;
+        align-self: center; 
+        position: relative;
+        left: 50%;
+        top:50%;
+    }
+    .logoInicio{
+        width: 50px;
+        height: auto;
+    }
+}

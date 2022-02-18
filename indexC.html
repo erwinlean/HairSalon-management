@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuentas BarberShop</title> 
+    <meta name="author" content="Erwin Leandro Marte">
+    <meta name="copyright" content="Erwin Leandro Marte">
+    <meta name="description" content="Cuentas barberia">
+    <link rel="icon" href="./img/Logos-Barber-Negro.jpg"/>
+    <meta name="robots" content="index">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/styleApp.css">
+</head>
+<body>
+    <main class="mainContainer">
+        <div class="title" id="header">
+            <div class="container-fluid d-flex">
+                <div class="navContainer row"> 
+                    <img class="imgTitulo col-xxl-1 col-xl-1 col-lg-1 col-md-12 col-sm-12 col-12" src="./img/Logo-Letras-png.png" alt="tizziano barberaShop" title="Tizziano`s BarberShop">
+                    <img class="imgTitulo col-xxl-1 col-xl-1 col-lg-1 col-md-12 col-sm-12 col-12" src="./img/1.png" alt="logo" title="logo">
+                    <a class="linkA m-2 col col-xxl-1 col-xl-1 col-lg-1 col-md-12 col-m-12 col-12" href="#importes" title="Precios">Precios</a>
+                    <a class="linkA m-2 col col-xxl-2 col-xl-2 col-lg-2 col-md-12 col-sm-12 col-12" href="#ingresos" title="Cuentas">Resumen de cuentas</a>
+                    <a class="linkA m-2 col col-xxl-2 col-xl-2 col-lg-2 col-md-12 col-sm-12 col-12" href="#EsperarASubirLaPagina" title="Pagina web">Pagina Web</a>
+                </div> 
+            </div>
+        </div>
+        <div id="tablaPrec container-fluid d-flex">
+            <table id="tablePrice" class="row m-4"> 
+                <tr class="principalTabla col-xxl-1 col-xl-1 col-lg-1 col-md-12 col-sm-12 col-12" id="importes">
+                  <th class="principal">Tipo de corte</th>
+                  <th class="principal">Precio $ </th>
+                  <th class="principal">Sumar o restar corte</th>
+                </tr>
+                <tr class="tr col-xxl-1 col-xl-1 col-lg-1 col-md-12 col-sm-12 col-12">
+                     <td class="tdclass">Corte</td>
+                     <td class="tdclass1" id="imp1">500</td>
+                     <td class="tdclass">
+                        <button id="suma1" class="btnNormal">sumar corte</button>
+                        <button id="resta1" class="btnNormal">restar ultimo ingreso</button>
+                    </td>
+                </tr>
+                <tr class="tr col-xxl-1 col-xl-1 col-lg-1 col-md-12 col-sm-12 col-12">
+                    <td class="tdclass">Corte y Barba</td>
+                    <td class="tdclass1" id="imp2">600</td>
+                    <td class="tdclass">
+                       <button id="suma2" class="btnNormal">sumar corte</button>
+                       <button id="resta2" class="btnNormal">restar ultimo ingreso</button>
+                   </td>
+                </tr>
+                <tr class="tr col-xxl-1 col-xl-1 col-lg-1 col-md-12 col-sm-12 col-12">
+                <td class="tdclass">Barba</td>
+                <td class="tdclass1" id="imp3">250</td>
+                <td class="tdclass">
+                   <button  id="suma3" class="btnNormal">sumar corte</button>
+                   <button  id="resta3"class="btnNormal">restar ultimo ingreso</button>
+                </td>
+                <tr class="tr col-xxl-1 col-xl-1 col-lg-1 col-md-12 col-sm-12 col-12">
+                    <td class="tdclass">Claritos</td>
+                    <td class="tdclass1" id="imp4">2500</td>
+                    <td class="tdclass">
+                       <button id="suma4" class="btnNormal">sumar corte</button>
+                       <button id="resta4" class="btnNormal">restar ultimo ingreso</button>
+                   </td>
+                </tr>
+                <tr class="tr col-xxl-1 col-xl-1 col-lg-1 col-md-12 col-sm-12 col-12">
+                    <td class="tdclass">Color Global</td>
+                    <td class="tdclass1" id="imp5">3500</td>
+                    <td class="tdclass">
+                       <button  id="suma5" class="btnNormal">sumar corte</button>
+                       <button id="resta5" class="btnNormal">restar ultimo ingreso</button>
+                   </td>
+                </tr>           
+                <tr class="tr col-xxl-1 col-xl-1 col-lg-1 col-md-12 col-sm-12 col-12">
+                    <td class="tdclass">Nutricion</td>
+                    <td class="tdclass1" id="imp6">700</td>
+                    <td class="tdclass">
+                       <button  id="suma6" class="btnNormal">sumar corte</button>
+                       <button id="resta6" class="btnNormal">restar ultimo ingreso</button>
+                   </td>
+                </tr>                                                                                                                 
+                </tr>                               
+                <tr class="tr col-xxl-1 col-xl-1 col-lg-1 col-md-12 col-sm-12 col-12">
+                    <td class="tdclass">Ingreso extra</td>
+                    <td class="tdclassInput">
+                        <input type="number" class="inputPrecio" id="ingresoExtra" placeholder="ingrese el precio">
+                    </td>
+                    <td class="tdclass">
+                        <button  id="sumaExtra" class="btnNormal">sumar importe</button>
+                        <button  id="restaExtra" class="btnNormal">restar ultimo ingreso</button>
+                    </td>
+                </tr>
+                <tr class="btn4Save d-flex container-fluid col col-xxl-1 col-xl-1 col-lg-1 col-md-12 col-sm-12 col-12">
+                    <td><button id="guardarCuentaDia" class="btnCuentasPerse1" >Guardar ingresos del dia</button></td>
+                    <td><button id="unSave" class="btnCuentasPerse1">Eliminar Ultimo dia ingresado</button> </td>
+                    <!--falta agregar la funcionalidad por semana y asi mismo por mes-->
+                    <td><button id="saveWeek" class="btnCuentasPerse">Guardar semana</button> </td>
+                </tr>
+                <tr class="btn4Save d-flex container-fluid col col-xxl-1 col-xl-1 col-lg-1 col-md-12 col-sm-12 col-12">
+                    <td><button id="unSaveWeek" class="btnCuentasPerse">Eliminar semana ingresado</button></td>
+                    <td><button id="saveMonth" class="btnCuentasPerse">Guardar mes</button></td>
+                    <td><button id="unSaveMonth" class="btnCuentasPerse">Eliminar mes ingresado</button></td>
+                </tr> 
+            </table>
+        </div>
+        <div id="ingresos  container-fluid d-flex">
+            <div class="row m-4">
+                <article id="ingresos" class="TablaIngresos col-xxl-4 col-xl-4 col-lg-4 col -md-12 col-sm-12 col-12">
+                    <p class="parrafoIngresos" id="ingresoDiario" >Ingresos actuales : 0</p>
+                    <p class="parrafoIngresos" id="ingresoSemana">Ingresos de la semana actual : 0</p>
+                    <p class="parrafoIngresos" id="ingresoSemanaPasada">Ingresos de las semanas pasadas : 0</p>
+                    <p class="parrafoIngresos" id="ingresoMes">Ingresos por mes : 0</p> 
+                </article>
+                    <a href="#header" class="inicio col-xxl-2 col-xl-2 col-lg-2 col-md-12 col-sm-12 col-12">
+                        <img class="logoInicio" src="./img/Up-to-start.png" alt="Volver a inicio" title="Volver a inicio">
+                    </a>
+                </div>
+            </div> 
+        </main>
+    </div> 
+    <script src="./functions/Main.js"></script>
+    <script src="./functions/buttons.js"></script>
+    <script src="./functions/acc.js"></script> 
+    <script src="./functions/capture.js"></script>
+    <script src="./functions/localStorage.js"></script>
+</body>
+</html>
